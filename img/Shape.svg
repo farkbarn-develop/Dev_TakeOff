@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="169.589"
+   height="31.899"
+   viewBox="0 0 44.870422 8.4399437"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="Shape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.8472583"
+     inkscape:cx="100.26286"
+     inkscape:cy="36.515488"
+     inkscape:window-width="1366"
+     inkscape:window-height="761"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5"
+       inkscape:export-filename="Shape.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g4">
+        <g
+           id="g7"
+           transform="matrix(0.26458333,0,0,0.26458333,-9.0891256,-19.422596)"
+           inkscape:export-filename="/home/farkbarn/Imágenes/Capturas de pantalla/shape.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96">
+          <path
+             style="fill:#252a24;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none"
+             d="M 77.906792,74.021676 87.72182,73.612717 96.51445,89.357659 88.74422,105.1026 H 78.929191 L 90.58454,89.153179 Z"
+             id="path3" />
+          <path
+             style="fill:#73be02;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none"
+             d="m 59.503613,75.453035 -5.929914,-2.044798 -11.041907,15.744942 2.044798,8.79263 9.201589,7.156791 15.949421,-6.747831 v -8.58815 z"
+             id="path6" />
+          <path
+             style="fill:#fddb02;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none"
+             d="m 64.820087,80.769509 -5.520954,0.613439 -8.179191,7.770231 9.40607,10.223989 11.655346,-10.019509 z"
+             id="path5" />
+          <path
+             style="fill:#252a24;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none"
+             d="M 53.573699,73.817197 H 65.229046 L 78.520231,89.562139 65.229046,105.30708 H 53.778179 L 65.842486,89.562139 Z"
+             id="path4" />
+          <path
+             style="fill:#252a24;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none"
+             d="m 34.352601,81.382948 3.476156,-7.361272 h 5.725434 l 8.38367,14.722544 -8.79263,15.94942 h -5.929913 l -2.453757,-5.520952 v -6.952312 l 2.862716,5.725433 3.476157,-8.79263 -3.476157,-7.974711 -2.453757,7.156792 z"
+             id="path7" />
+        </g>
+        <g
+           id="g3"
+           transform="matrix(1.0573996,0,0,1.287735,-0.95946765,-1.5553548)">
+          <text
+             xml:space="preserve"
+             style="font-weight:bold;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.529167"
+             x="16.429821"
+             y="4.4213138"
+             id="text1"><tspan
+               sodipodi:role="line"
+               style="fill:#000000;stroke-width:0.529167"
+               x="16.429821"
+               y="4.4213138"
+               id="tspan2">EXPRESS</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-weight:bold;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.529167"
+             x="16.462595"
+             y="7.2128386"
+             id="text1-5"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.529167"
+               x="16.462595"
+               y="7.2128386"
+               id="tspan2-3">FREIGHT FINANCE</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
