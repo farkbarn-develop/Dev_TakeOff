@@ -148,3 +148,29 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .PIde{color: #FFF;text-transform: capitalize;font-size: 40px;text-align: left;}
 .TxtSecBotSta{color:#FFF;text-transform: capitalize;text-align: justify;line-height: 1.5;margin-top: 15px;width: 90%;}
 .StarHere{margin-top: 50px;border:1px solid #FFF;padding: 20px 30px;border-radius: 30px;}
+.SecForm{width: 50%;margin: 150px 16%;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);padding: 80px 120px;}
+.ASen{margin-top: -50px;}
+.TxtGet{font-size: 40px;text-align: center;width: 100%;color:#f89384;text-transform: uppercase;}
+.TxtGet .SpaOur{color:#FFF;text-align: right;}
+.InpNam, .InpLasNam, .InpLasNam, .InpTit, .InpCom, .InpMes{float: left;background: bottom;width: 48%;border-style: hidden;border-bottom: 1px solid #FFF;margin: 10px 0.5% 30px 0.5%;}
+.InpTit, .InpCom{width:97.5%;}
+.InpLasNam, {float: right;width: 40%;}
+.InpMes{border: 1px solid #FFF;width: 97.5%;height: 200px;}
+.SecSen{float: right;margin-top: 50px;}
+.LinForm{width: 100%;border-bottom: 1px solid #FFF;margin: 40px 0;box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);}
+.SecCeo{margin-left: 20px;}
+.PEma,.PPil{color: #FFF;font-size: 17px;width: 50%;margin-top: 50px;margin-left: 50px;}
+.PPil{text-transform: uppercase;margin-top: 30px;font-weight: bold;}
+.SpaEmaSub{text-decoration: underline;}
+.SpaCeo{text-transform: uppercase;margin:0 5px;}
+.SpaDir{margin-right: 5px;}
+.AMeet{text-align: center;}
+.StarHere{margin: 50px 215px;margin-bottom: -10px;}
+.SecPie{margin: 0 5%;}
+.ImgLin{width: 30px;margin-left: 80px;}
+.SecCon{margin-left: 50px;}
+.PCon{color:#f89384;text-transform: uppercase;font-weight: bold;font-size: 12px;}
+.P311,.P630{color: #FFF;margin-top: 20px;margin-left: -90px;font-size: 12px;}
+.P630{margin-top: 50px;}
+.SecLin{margin-left: 50px;width: 20%;}
+.SecLin a{float: left;color:#f89384;text-transform: uppercase;font-size: 15px;font-weight: bold;margin-bottom: 5px;}
