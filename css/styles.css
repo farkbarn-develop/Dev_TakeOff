@@ -18,7 +18,7 @@ a{color: #FFF;}
 
 .Jum{color: #FFF;width: 100%;text-align: center;margin-top: 30px;font-size: 23px;}
 .Mom{color: #FFF;width: 60%;text-align: center;margin-top: 30px;font-size: 23px;}
-.MonCen{margin:0 330px;margin-top: 30px;}
+.MonCen{margin: 0;margin-top: 30px;margin-left: 330px;}
 .WrapIzq{margin-left: 25%;}
 
 .AirPla{table-row-group;text-align: left;display: block;float: inline-start;margin: 0 -50px;}
@@ -39,13 +39,13 @@ margin: 10px 0px;
 font-size: 50px;}
 .L1{text-transform: uppercase;}
 .L1 span{float: left;width: 45px;}
-.DesTxtChar p{float:left;margin: 0px;padding: 0px;width: 675%;}
+.DesTxtChar p{float:left;margin: 0px;padding: 0px;width: 215%;}
 .TxtL2{margin-top:20px;}
 .TxtL3{margin-top:20px;}
 .TxtL4{margin-top:20px;}
 .DesTxtChar p.TxtL2,.DesTxtChar p.TxtL3,.DesTxtChar p.TxtL4{margin-top:20px;}
 .DesTxtChar p span{margin: 0 1px;background-color: gray;}
-.Gat{float: left;text-align: initial;margin-left: 1055px;}
+.Gat{float: left;text-align: initial;margin-left: 1040px;width:20%;}
 .Gat p{width: 100%;float: left;margin: 0px;padding:0px;color:#FFF;text-transform: capitalize;}
 .CodGat{margin-top: 5px;}
 .CodGat p span{}
@@ -84,8 +84,8 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .LefJumSea{background-image:url("../img/Truck.png");float: left;background-color: #cfcfcf;padding: 10px 0px;width: 75%;height: 365px;}
 .RigJumSea{background-color: gray;width: 25%;float: right;padding-top: 35px;}
 .StaIn{background-color: #000; opacity: 0.5;}
-.PSta{width: 60%;color:#ffc600;padding:0 40px;margin-top: 50px;text-transform: uppercase;font-size: 40px;text-align: left;}
-.POne{width: 40%;color:#FFF;text-transform:capitalize;text-align: justify;margin-top: 20px;padding-left: 45px;}
+.PSta{width: 60%;color:#f89384;padding:0 40px;margin-top: 50px;text-transform: uppercase;font-size: 80px;text-align: left;margin-left:330px;font-weight: bold;}
+.POne{width: 40%;color:#FFF;text-transform:capitalize;text-align: justify;margin-top: -180px;padding-left: 45px;}
 .ImgSha{margin-left: 50px;padding: 10px;background-color: #cfcfcf;}
 .RigJumSea{background-color: #000;line-height: 25px;height: 350px;}
 .RigJumSea p{color:#FFF;margin:30px 30px 0 30px;text-align: justify;}
@@ -99,14 +99,14 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .CirSel{background-color: #FFF;}
 .FooJumSea{position: relative;left: 50%;}
 .JumSea{margin-bottom: 310px;}
-.B2BAge{width: 100%;height: 100px;margin:50px 120px;}
+.B2BAge{width: 80%;height: 100px;margin:50px 120px;}
 .PB2B{color: #FFF;text-transform: uppercase;font-size: 70px;font-weight: bold;margin-bottom:50px;}
 .PAdv{color: #f89384;text-transform: uppercase;font-size: 70px;font-weight: bold;margin-top: 90px;margin-left: -350px;}
 .SecIfAMan{width: 50%;float: left;}
-.IfAMan{color: #FFF;font-size: 20px;float: left;width: 100%;margin-top: 50px;margin-left: 70px;}
+.IfAMan{color: #FFF;font-size: 20px;float: left;width: initial;margin-top: 50px;margin-left: 70px;}
 .SecLef{width: 30%;font-size: 30px;text-transform:capitalize;margin-left: 50px;text-align:justify;line-height: 30px;}
 .PIfAMan{}
-.SecRig{width: 40%;float: left;margin-left: 10%;font-size: 50px;text-align: justify;}
+.SecRig{width: 55%;float: left;margin-left: 10%;font-size: 50px;text-align: justify;}
 .ArrPStr{float: right;}
 .PStr{text-transform: uppercase;background-color: #101318;text-align: left;/*height: 100px;*/}
 .PStr:hover{color:#f89384;}
@@ -124,7 +124,7 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .PWitYou{width: 100%;text-align: center;margin-bottom: 10px;color: #FFF;font-size: 50px;text-transform: uppercase;font-weight: bold;}
 .PSom{width: 100%;text-align: center;color: #FFF;line-height: 1.5;font-size: 22px;}
 
-.TxtAdvAgeJum{width: 100%;text-align: center;margin-top: 200px;margin-left:50px;}
+.TxtAdvAgeJum{width: initial;text-align: center;margin-top: 200px;margin-left:50px;}
 .TxtA{margin-left: 0%;}
 .TxtC{margin-right: 0%;}
 .TxtA .PTit,.TxtB .PTit,.TxtC .PTit{width: 100%;text-transform: uppercase;color:#FFF;font-size: 25px;font-weight: bold;}
@@ -133,9 +133,14 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .Pun{width: 10px;height: 10px;background-color: #f89384;border-radius: 50%;margin-top: 40px;}
 .TxtAdvAgeJumLin{width: 50%;margin-left: 25%;margin-right: 25%;}
 .Lin{width: 80%;height: 5px;/*border-bottom: 2px solid #f89384;*/}
-.linea-horizontal{border: none;border-top: 3px solid #F89384; /* Grosor y color */width: 58%; /* Ancho de la línea */margin: -6px 0; /* Espaciado */margin-left: 205px;}
+.linea-horizontal{border: none;border-top: 3px solid #F89384; /* Grosor y color */width: 60.5%; /* Ancho de la línea */margin: -6px 0; /* Espaciado */margin-left: 205px;}
 .TxtAdvAgeJum{margin-bottom: 50px;}
 .SecEliSal{margin-left: 80px;margin-top: 100px;}
+
+.SecFee{width:100%;margin-top:50px;}
+.PFee{width:100%;color: #FFF; font-size: 100px;font-weight: bold;text-align:center;text-transform:uppercase; }
+.Psta{color:#F89384;font-weight:bold; text-align:center;}
+
 .PEli{color: #FFF; font-size: 50px;font-weight: bold;text-transform:uppercase;text-align: left;}
 .PThi,.PYouGet{margin-left: 10px;color: #FFF;text-transform: capitalize;margin-top: 50px;text-align: left;}
 .PThi,.PYouGet{float: none;font-size: 20px;margin-top: 130px;line-height: 1.5;}
