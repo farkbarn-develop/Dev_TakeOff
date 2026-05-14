@@ -13,3 +13,256 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: test
 Tags: test,test
 */
+
+
+/* RESET CSS */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*styles*/
+@charset "UTF-8";
+@font-face {
+  font-family: 'arial-narrow';
+  src: url('arial-narrow.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+*{text-align: 0;text-decoration: none;font-family: 'Open Sans';float: left;}
+
+/* CSSs */
+*{font-family: arial;}
+body{background-color: #000;width:100%;font-family: arial, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
+.main{width: 100%;background-image:url("../img/nature.jpg");}
+.principal{width: 100;}
+.body{width: 100%;float: left;/*margin-top: 20px;*/}
+.menu{float:right;margin-top: 30px;}
+.icono{float: left;}
+.menu a{text-align:right; text-decoration: none;color: #FFF;font-weight: bold;text-transform:uppercase;font-family: arial;font-size: 15px;margin-top: 70px;margin:10px 20px;}
+.ico{height: 80px;}
+a{color: #FFF;}
+
+.ImgTakOff{margin: 0 300px;margin-top: 150px;}
+.avo{color:#FFF; margin-top: 40px;text-align: center;width: 80%;text-transform:none;margin: 0;margin-top: 30px;margin-top: 30px !important;}
+.wrap{border: 2px solid #FFF;border-radius: 20px;padding: 15px;text-align: center;margin: 50px 40%;}
+.Content{text-align: center;}
+.Content p {margin: 0 10%;}
+.fly{text-transform: uppercase;color:#FFF;margin-right: 10px;width: 105px;}
+.flywrap{width:120px;}
+.fly2{}
+.wrap .fly{width: 105px;}
+.wrap .fly1{width: 165px;}
+.B2B{text-align: center;text-transform: uppercase;color:#FFF;margin-top: 30px!important;font-size: 50px;width: 51%;margin-bottom: 30px;}
+.B2B{margin:30px 0;}
+.entry-date, .posted-on, .post-date,.fechanotafront, .linknotafront {display: none !important;}
+.Jum{color: #FFF;width: 100%;text-align: center;margin-top: 30px;font-size: 23px;}
+.Jum p{}
+
+.Mom{color: #FFF;width: 60%;text-align: center;margin-top: 30px;font-size: 23px;}
+.MonCen{margin: 0;margin-top: 30px;margin-left: 330px;}
+.WrapIzq{width: 12%;margin-left: 25%;}
+
+.AirPla{table-row-group;text-align: left;display: block;float: left;margin: 0 -50px;}
+.AirPlaImg{width: 8%;margin: 0 0 0 200px;float: left;}
+.PAir{text-transform: uppercase;color: #FFF;font-size: 45px;margin-left: 20px;margin-top: 0px !important;margin-left: 30px!important;}
+
+.Des{float: left; color:#FFF;width: 25%;margin: 0 -25%;margin-top: 100px;}
+.Gat{margin-top: 50px;}
+.Tim, .Destino, .Gat{width: 80%;float: left; font-size: 25px;text-transform: capitalize;text-align: left;}
+.Cro{font-size: 50px;float: left;width: 50%;margin: 10px 5px;}
+.Cro p {float:left; width: 28px;background-color: gray;margin: 0 1px;padding: 0 1px;}
+.Des p{}
+.Des Destino{}
+.DestinoText{margin-left: -150px;}
+.DesTxtChar{font-weight: bold;color:#FFF;
+/*background-color: gray;*/padding: 0 1px;
+margin: 10px 0px;
+font-size: 50px;}
+.L1{text-transform: uppercase;}
+.L1 span{float: left;width: 45px;}
+.DesTxtChar p{float:left;margin: 0px;padding: 0px;width: 215%;}
+.TxtL2{margin-top:20px;}
+.TxtL3{margin-top:20px;}
+.TxtL4{margin-top:20px;}
+.DesTxtChar p.TxtL2,.DesTxtChar p.TxtL3,.DesTxtChar p.TxtL4{margin-top:20px;}
+.DesTxtChar p span{margin: 0 1px;background-color: gray;}
+.Gat{float: left;text-align: initial;margin-left: 1040px;width:20%;}
+.Gat p{width: 100%;float: left;margin: 0px;padding:0px;color:#FFF;text-transform: capitalize;}
+.CodGat{margin-top: 5px;}
+.CodGat p span{}
+.SpaCar{text-transform: uppercase;}
+.SpaCre{margin: 0 15px;}
+.Gate{margin-top:15px;margin-left: 0px;}
+.Gate p{font-size: 50px;margin-bottom: 20px;}
+.Gate p span{margin: 0 1px;background-color: gray;padding: 0 5px;}
+.DesTxtChar{width: initial;}
+.CodGat{margin-top:0; margin-bottom: 10px;}
+
+.SecLogIsc{margin-top: 300px;display: flex;justify-content: center;width: 100%;}
+.LogIsc{text-align: center;display: flex;justify-content: center;}
+.SecWerRea{width: 60%;margin: 80px 20%;}
+.WerRea{color:#FFF;font-size: 50px;}
+.Mul{font-size: 160px;margin-top:-40px;opacity: 50%;}
+p.aut{color:#FFF;text-align: right;float:right;}
+.aut span{float:right;}
+.exp{text-align: left;width: 120%;}
+.Spanb2b{text-transform: uppercase;text-align: left;}
+.Nam{text-transform: capitalize;font-size: 25px;font-weight: bold;}
+.Pred{color:#f89384;font-weight: bold;}
+.Seo{text-transform: uppercase;margin-top: 10px;}
+.Ind{text-transform: capitalize;margin-left:5px;}
+
+.Sho{color: #FFF;font-size: 70px;text-transform: uppercase;font-weight: bold;}
+.ShoBol{float: inline-start;width: 100%;text-align: left;margin-left: 50px;}
+.ShoCon{color:#f89384;float: inline-start;width: 100%;text-align: left;margin-left: 50px;}
+
+.Arr{float: right;margin-top: -50px;margin-right: 60px;}
+.JumSea{margin: 100px 5%; width: 90%;background-color: #000;height: 100px;}
+.HeaJumSea{margin: 10px; margin-left: 50px;}
+.PJumSea{color: #999999;text-transform: uppercase;margin-left: 25px;font-size: 25px;margin-top: 0px;}
+.PBoaPas{color: #999999;text-transform: uppercase;float: right;font-size: 25px;margin-top: 0px;float: left;margin-left: 720px;}
+
+.LefJumSea{background-image:url("../img/Truck.png");float: left;background-color: #cfcfcf;padding: 10px 0px;width: 75%;height: 365px;}
+.RigJumSea{background-color: gray;width: 25%;float: right;padding-top: 35px;}
+.StaIn{background-color: #000; opacity: 0.5;}
+.PSta{width: 60%;color:#f89384;padding:0 40px;margin-top: 50px;text-transform: uppercase;font-size: 80px;text-align: left;margin-left:330px;font-weight: bold;}
+.POne{width: 40%;color:#FFF;text-transform:capitalize;text-align: justify;margin-top: -180px;padding-left: 45px;}
+.ImgSha{margin-left: 50px;padding: 10px;background-color: #cfcfcf;}
+.RigJumSea{background-color: #000;line-height: 25px;height: 350px;}
+.RigJumSea p{color:#FFF;margin:30px 30px 0 30px;text-align: justify;}
+.RigJumSea .Cas{margin-top: 20px;margin-left: 150px;}
+.CasArr{margin-top: 6px;margin-left: 5px;}
+.TxtLorTit{font-size: 22px;font-weight: bold;}
+.TxtLorTxt{}
+.TxtLor{color: #FFF;}
+.IteCir{margin-top: 10px;}
+.Cir{width: 5px;height: 5px;border-radius: 10px;border: 2px solid #FFF;margin:5px;}
+.CirSel{background-color: #FFF;}
+.FooJumSea{position: relative;left: 50%;}
+.JumSea{margin-bottom: 310px;}
+.B2BAge{width: 80%;height: 100px;margin:50px 120px;}
+.PB2B{color: #FFF;text-transform: uppercase;font-size: 70px;font-weight: bold;margin-bottom:50px;}
+.PAdv{color: #f89384;text-transform: uppercase;font-size: 70px;font-weight: bold;margin-top: 90px;margin-left: -350px;}
+.SecIfAMan{width: 50%;float: left;}
+.IfAMan{color: #FFF;font-size: 20px;float: left;width: initial;margin-top: 50px;margin-left: 70px;}
+.SecLef{width: 30%;font-size: 30px;text-transform:capitalize;margin-left: 50px;text-align:justify;line-height: 30px;}
+.PIfAMan{}
+.SecRig{width: 55%;float: left;margin-left: 10%;font-size: 50px;text-align: justify;}
+.ArrPStr{float: right;}
+.PStr{text-transform: uppercase;background-color: #101318;text-align: left;/*height: 100px;*/}
+.PStr:hover{color:#f89384;}
+.SecRig{transition: transform 0.3s ease; /* Suaviza el movimiento */}
+.SecRig:hover{transform: translateY(-100px); /* Mueve 10px hacia arriba */}
+.TxtFon{font-size: 20px;color:#f89384;}
+.TxtFon{transition: transform 0.3s ease;}
+.TxtFon:hover{transform: translateY(-0px);}
+.LoremTxtFon{opacity: 0;}
+.LoremTxtFon:hover{opacity: 1;transition: opacity 0.5s ease-in-out;}
+.SecIte{border-bottom: 1px solid #FFF;}
+.SecIte:hover{border-bottom: 1px solid #f89384;}
+
+.WitYou{text-align: center;margin:0 20%;margin-top: 50px;}
+.PWitYou{width: 100%;text-align: center;margin-bottom: 10px;color: #FFF;font-size: 50px;text-transform: uppercase;font-weight: bold;}
+.PSom{width: 100%;text-align: center;color: #FFF;line-height: 1.5;font-size: 22px;}
+
+.TxtAdvAgeJum{width: initial;text-align: center;margin-top: 200px;margin-left:50px;}
+.TxtA{margin-left: 0%;}
+.TxtC{margin-right: 0%;}
+.TxtA .PTit,.TxtB .PTit,.TxtC .PTit{width: 100%;text-transform: uppercase;color:#FFF;font-size: 25px;font-weight: bold;}
+.TxtPTit{font-size: 20px;margin-top: 10px;text-align: center;color:#FFF;margin-left: 130px;}
+.TxtPTit span{color:#f89384;margin-right: 5px;}
+.Pun{width: 10px;height: 10px;background-color: #f89384;border-radius: 50%;margin-top: 40px;}
+.TxtAdvAgeJumLin{width: 50%;margin-left: 25%;margin-right: 25%;}
+.Lin{width: 80%;height: 5px;/*border-bottom: 2px solid #f89384;*/}
+.linea-horizontal{border: none;border-top: 3px solid #F89384; /* Grosor y color */width: 59%; /* Ancho de la línea */margin: -6px 0; /* Espaciado */margin-left: 205px;}
+.TxtAdvAgeJum{margin-bottom: 50px;}
+.SecEliSal{margin-left: 80px;margin-top: 100px;}
+
+.SecFee{width:100%;margin-top:50px;}
+.PFee{width:100%;color: #FFF; font-size: 100px;font-weight: bold;text-align:center;text-transform:uppercase; }
+.Psta{color:#F89384;font-weight:bold; text-align:center;}
+
+.PEli{color: #FFF; font-size: 50px;font-weight: bold;text-transform:uppercase;text-align: left;}
+.PThi,.PYouGet{margin-left: 10px;color: #FFF;text-transform: capitalize;margin-top: 50px;text-align: left;}
+.PThi,.PYouGet{float: none;font-size: 20px;margin-top: 130px;line-height: 1.5;}
+.PYouGet{margin-top: 30px;}
+.PThi span{font-weight: bold;}
+.SecGetTo{float: left;border: 1px solid #FFF;border-radius: 50px;padding: 20px;margin-top: 20px;}
+.AGet{text-transform: uppercase;}
+.AviIde{margin-top: 100px;}
+.SecIde{width: 50%;margin-left:80px;margin-top: 35px;}
+.PIde{color: #FFF;text-transform: capitalize;font-size: 40px;text-align: left;}
+.TxtSecBotSta{color:#FFF;text-transform: capitalize;text-align: justify;line-height: 1.5;margin-top: 15px;width: 90%;}
+.StarHere{margin-top: 50px;border:1px solid #FFF;padding: 20px 30px;border-radius: 30px;}
+.SecForm{width: 50%;margin: 150px 16%;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);padding: 80px 120px;}
+.ASen{margin-top: -50px;}
+.TxtGet{font-size: 40px;text-align: center;width: 100%;color:#f89384;text-transform: uppercase;}
+.TxtGet .SpaOur{color:#FFF;text-align: right;}
+.InpNam, .InpLasNam, .InpLasNam, .InpTit, .InpCom, .InpMes{float: left;background: bottom;width: 48%;border-style: hidden;border-bottom: 1px solid #FFF;margin: 10px 0.5% 30px 0.5%;}
+.InpTit, .InpCom{width:97.5%;}
+.InpLasNam, {float: right;width: 40%;}
+.InpMes{border: 1px solid #FFF;width: 97.5%;height: 200px;}
+.SecSen{float: right;margin-top: 50px;}
+.LinForm{width: 100%;border-bottom: 1px solid #FFF;margin: 40px 0;box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);}
+.SecCeo{margin-left: 20px;}
+.PEma,.PPil{color: #FFF;font-size: 17px;width: 50%;margin-top: 50px;margin-left: 50px;}
+.PPil{text-transform: uppercase;margin-top: 30px;font-weight: bold;}
+.SpaEmaSub{text-decoration: underline;}
+.SpaCeo{text-transform: uppercase;margin:0 5px;}
+.SpaDir{margin-right: 5px;}
+.AMeet{text-align: center;}
+.StarHere{margin: 50px 215px;margin-bottom: -10px;}
+.SecPie{margin: 0 5%;}
+.ImgLin{width: 30px;margin-left: 80px;}
+.SecCon{margin-left: 50px;}
+.PCon{color:#f89384;text-transform: uppercase;font-weight: bold;font-size: 12px;}
+.P311,.P630{color: #FFF;margin-top: 20px;margin-left: -90px;font-size: 12px;}
+.P630{margin-top: 50px;}
+.SecLin{margin-left: 50px;width: 20%;}
+.SecLin a{float: left;color:#f89384;text-transform: uppercase;font-size: 15px;font-weight: bold;margin-bottom: 5px;}
+
+/* RESPONSIVE */
