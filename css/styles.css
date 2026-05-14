@@ -133,7 +133,7 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .Pun{width: 10px;height: 10px;background-color: #f89384;border-radius: 50%;margin-top: 40px;}
 .TxtAdvAgeJumLin{width: 50%;margin-left: 25%;margin-right: 25%;}
 .Lin{width: 80%;height: 5px;/*border-bottom: 2px solid #f89384;*/}
-.linea-horizontal{border: none;border-top: 3px solid #F89384; /* Grosor y color */width: 60.5%; /* Ancho de la línea */margin: -6px 0; /* Espaciado */margin-left: 205px;}
+.linea-horizontal{border: none;border-top: 3px solid #F89384; /* Grosor y color */width: 59%; /* Ancho de la línea */margin: -6px 0; /* Espaciado */margin-left: 205px;}
 .TxtAdvAgeJum{margin-bottom: 50px;}
 .SecEliSal{margin-left: 80px;margin-top: 100px;}
 
