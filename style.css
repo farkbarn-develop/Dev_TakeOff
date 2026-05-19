@@ -90,17 +90,20 @@ a{color: #FFF;}
 .avo{color:#FFF; margin-top: 40px;text-align: center;width: 80%;text-transform:none;margin: 0;margin-top: 30px;margin-top: 30px !important;}
 .wrap{border: 2px solid #FFF;border-radius: 20px;padding: 15px;text-align: center;margin: 50px 40%;}
 .Content{text-align: center;}
-.Content p {margin: 0 10%;}
+.Content p {margin: 0 10%;color:#FFF;}
 .fly{text-transform: uppercase;color:#FFF;margin-right: 10px;width: 105px;}
 .flywrap{width:120px;}
 .fly2{}
 .wrap .fly{width: 105px;}
-.wrap .fly1{width: 165px;}
-.B2B{text-align: center;text-transform: uppercase;color:#FFF;margin-top: 30px!important;font-size: 50px;width: 51%;margin-bottom: 30px;}
-.B2B{margin:30px 0;}
+.wrap .fly1{width: 165px;float: inline-end;margin-top: -15px;}
+			.Arr1{float: none;margin-left: 20px;}
+.fly1 a img {float: none;margin-left: 20px;}
+.B2B{width: 100%;text-align: center;text-transform: uppercase;color:#FFF;margin: 30px!important;font-size: 50px;}
 .entry-date, .posted-on, .post-date,.fechanotafront, .linknotafront {display: none !important;}
 .Jum{color: #FFF;width: 100%;text-align: center;margin-top: 30px;font-size: 23px;}
-.Jum p{}
+.Jum p{color:#FFF;}
+
+.WerRea{width:100%;}
 
 .Mom{color: #FFF;width: 60%;text-align: center;margin-top: 30px;font-size: 23px;}
 .MonCen{margin: 0;margin-top: 30px;margin-left: 330px;}
@@ -147,8 +150,11 @@ font-size: 50px;}
 .SecWerRea{width: 60%;margin: 80px 20%;}
 .WerRea{color:#FFF;font-size: 50px;}
 .Mul{font-size: 160px;margin-top:-40px;opacity: 50%;}
-p.aut{color:#FFF;text-align: right;float:right;}
+p.aut{color:#FFF;text-align: right;float:right;margin-right:0;}
 .aut span{float:right;}
+.exp{font-size:30px;}
+.Pred{font-size:40px;}
+
 .exp{text-align: left;width: 120%;}
 .Spanb2b{text-transform: uppercase;text-align: left;}
 .Nam{text-transform: capitalize;font-size: 25px;font-weight: bold;}
@@ -156,23 +162,56 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .Seo{text-transform: uppercase;margin-top: 10px;}
 .Ind{text-transform: capitalize;margin-left:5px;}
 
+.Sho{margin-top:100px;}
 .Sho{color: #FFF;font-size: 70px;text-transform: uppercase;font-weight: bold;}
 .ShoBol{float: inline-start;width: 100%;text-align: left;margin-left: 50px;}
-.ShoCon{color:#f89384;float: inline-start;width: 100%;text-align: left;margin-left: 50px;}
+.ShoCon{color:#f89384 !important;float: inline-start;width: 100%;text-align: left;margin-left: 50px;}
 
 .Arr{float: right;margin-top: -50px;margin-right: 60px;}
 .JumSea{margin: 100px 5%; width: 90%;background-color: #000;height: 100px;}
-.HeaJumSea{margin: 10px; margin-left: 50px;}
-.PJumSea{color: #999999;text-transform: uppercase;margin-left: 25px;font-size: 25px;margin-top: 0px;}
-.PBoaPas{color: #999999;text-transform: uppercase;float: right;font-size: 25px;margin-top: 0px;float: left;margin-left: 720px;}
+.HeaJumSea{width: 100%;margin: 10px; margin-left: 50px;}
+.PJumSea{margin-left: 10px!important;color: #999999;text-transform: uppercase;margin-left: 25px;font-size: 25px;margin-top: 0px;margin:0 15px;}
+.PBoaPas{float: inline-end!important;color: #999999;text-transform: uppercase;float: right;font-size: 25px;margin-top: 0px;float: left;margin-left: 720px;}
 
 .LefJumSea{background-image:url("../img/Truck.png");float: left;background-color: #cfcfcf;padding: 10px 0px;width: 75%;height: 365px;}
 .RigJumSea{background-color: gray;width: 25%;float: right;padding-top: 35px;}
 .StaIn{background-color: #000; opacity: 0.5;}
 .PSta{width: 60%;color:#f89384;padding:0 40px;margin-top: 50px;text-transform: uppercase;font-size: 80px;text-align: left;margin-left:330px;font-weight: bold;}
+.UlSli .LSta p.PSta{font-size: 60px;margin: 70px 0;color:#f56e1d;}
+
+.slider {
+  display: flex;
+  overflow-x: auto; /* Permite scroll horizontal */
+  scroll-snap-type: x mandatory; /* Alinea los slides */
+  scroll-behavior: smooth; /* Deslizamiento suave */
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.slider li {
+  min-width: 100%; /* Cada slide ocupa todo el ancho */
+  scroll-snap-align: start;
+}
+
+.slider img {
+  width: 100%;
+  object-fit: cover; /* Ajusta la imagen sin deformar */
+}
+
+/* Ocultar barra de scroll */
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* SLIDER */
+* {
+  box-sizing: border-box;
+}
+
 .POne{width: 40%;color:#FFF;text-transform:capitalize;text-align: justify;margin-top: -180px;padding-left: 45px;}
 .ImgSha{margin-left: 50px;padding: 10px;background-color: #cfcfcf;}
-.RigJumSea{background-color: #000;line-height: 25px;height: 350px;}
+.RigJumSea{background-color: #000 !important;line-height: 25px;height: 350px;}
 .RigJumSea p{color:#FFF;margin:30px 30px 0 30px;text-align: justify;}
 .RigJumSea .Cas{margin-top: 20px;margin-left: 150px;}
 .CasArr{margin-top: 6px;margin-left: 5px;}
@@ -218,9 +257,11 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .Pun{width: 10px;height: 10px;background-color: #f89384;border-radius: 50%;margin-top: 40px;}
 .TxtAdvAgeJumLin{width: 50%;margin-left: 25%;margin-right: 25%;}
 .Lin{width: 80%;height: 5px;/*border-bottom: 2px solid #f89384;*/}
-.linea-horizontal{border: none;border-top: 3px solid #F89384; /* Grosor y color */width: 59%; /* Ancho de la línea */margin: -6px 0; /* Espaciado */margin-left: 205px;}
+.linea-horizontal{border: none;border-top: 3px solid #F89384; /* Grosor y color */width: 58%; /* Ancho de la línea */margin: -6px 0; /* Espaciado */margin-left: 135px;}
 .TxtAdvAgeJum{margin-bottom: 50px;}
 .SecEliSal{margin-left: 80px;margin-top: 100px;}
+
+
 
 .SecFee{width:100%;margin-top:50px;}
 .PFee{width:100%;color: #FFF; font-size: 100px;font-weight: bold;text-align:center;text-transform:uppercase; }
@@ -264,5 +305,20 @@ p.aut{color:#FFF;text-align: right;float:right;}
 .P630{margin-top: 50px;}
 .SecLin{margin-left: 50px;width: 20%;}
 .SecLin a{float: left;color:#f89384;text-transform: uppercase;font-size: 15px;font-weight: bold;margin-bottom: 5px;}
+
+/*SLIDER*/
+
+/* SLIDER FIN */
+
+
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIVE */
