@@ -3,10 +3,8 @@
   <img class="ImgTakOff" src="<?php echo get_template_directory_uri()."/img/TakeOff.png"; ?>" alt="">
   <p class="avo">Avoid turbulence. Arrive at your destination sooner. And enjoy the ascent</p>
   <section class="wrap">
-    <p class="fly fly1"><a href="#">fly with us</a></p><img class="arr" src="img/Arrow.png" alt="">
+    <p class="fly fly1"><a href="#"><p class="fly flywrap"><a href="#">fly with us</a></p><img class="arr" src="<?php echo get_template_directory_uri()."/img/Arrow.png"; ?>" alt=""></a></p>
   </section>
-
-
 <?php
   query_posts('category_name=IndexMed&posts_per_page=1' );
   while (have_posts()):the_post(); ?>
@@ -94,7 +92,7 @@
   </section>
   <!-- Fin Gate -->
   <section class="SecLogIsc">
-    <img class="LogIsc" src="img/LogoIsco.png" alt="">
+    <img class="LogIsc" src="<?php echo get_template_directory_uri()."/img/LogoIsco.png"; ?>" alt="">
   </section>
   <section class="SecWerRea">
     <p class="WerRea"><span class="Mul">"</span><span>We're really impressed with their </br></span>
@@ -107,20 +105,25 @@
     <p class="ShoCon">show up confidently </br></p>
   </section>
   <section class="Arr">
-    <img src="img/Arrow2.png" alt="">
+    <img src="<?php echo get_template_directory_uri()."/img/Arrow2.png"; ?>" alt="">
   </section>
+
   <section class="JumSea">
     <section class="HeaJumSea">
-      <img src="img/Wing.png" alt="">
+      <img src="<?php echo get_template_directory_uri()."/img/Wing.png"; ?>" alt="">
       <p class="PJumSea">jumpseat</p>
       <p class="PBoaPas">boarding pass</p>
     </section>
     <section class="LefJumSea">
-      <img class="ImgSha" src="img/Shape.png" alt="">
-      <section class="StaIn">
-        <p class="PSta">stay in the </br>driver's seat</p>
-        <p class="POne">one-stop access to key trucking business needs. get evetything from freight factoring to fuel cards, equipment leasing and insurance. simple and fast so you can spend more of your time on what's important - running and growing your business</p>
-      </section>
+      <img class="ImgSha" src="<?php echo get_template_directory_uri()."/img/Shape.png"; ?>" alt="">
+
+
+      <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>
+      <?/*CARRUSEL*/?>
+
+
+
+      <?/*FIN CARRUSEL*/?>
     </section>
     <section class="RigJumSea" name="">
       <p class="TxtLorTit">
